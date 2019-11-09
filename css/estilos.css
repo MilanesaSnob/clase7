@@ -1,0 +1,49 @@
+
+body {background: brown;}
+
+.bg-blanco {background: white;}
+
+/*h2{text-align: center;}*/
+
+header img {width: 200px;}
+#historia small {color: red;}
+
+#historia mark {background: yellow;}
+
+#discos table {cursor: crosshair;}
+#discos table th {background: blue;}
+
+#discos .table-dark.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+#discos .jugando p:nth-of-type(even) {
+    color: red;
+}
+#discos .jugando p:nth-of-type(3) {
+    color: green;
+}
+#discos .jugando p:first-child {
+    background: turquoise;
+}
+#discos .jugando p:last-child {
+    background: blue; color: white;
+}
+
+#discos .form-control {
+    border-radius: 0;
+    transition: all 0.3s;
+}
+#discos input:focus {
+    border-radius: 1.5rem;
+}
+
+/*
+#discos input[type=email]:focus {
+    border-radius: 1.5rem;
+}
+*/
+
+footer{
+    height: 200px;
+}
